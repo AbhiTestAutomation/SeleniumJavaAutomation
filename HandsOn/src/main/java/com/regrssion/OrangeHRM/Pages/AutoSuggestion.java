@@ -17,6 +17,7 @@ public class AutoSuggestion {
 		
 		System.setProperty("webdriver.chrome.driver", "\\Users\\gudmh\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
+		
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		
@@ -32,6 +33,7 @@ public class AutoSuggestion {
 		
 	}
 	
+	//my second git push commit!!:)
 	@Test
 	public void RunTest() throws InterruptedException {
 		AutoSuggestion.autosuggest();
